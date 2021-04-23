@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 8080
-CMD [ "node", "service.js" ]
+CMD [ "npm", "start" ]
